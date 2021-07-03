@@ -1,0 +1,20 @@
+{
+	"local": {
+		"host": "http://localhost",
+		"port": 8383,
+		"endpoints": {},
+		"defaults": {}
+	},
+	"development": {
+		"host": "https://dev-node-api.example.com",
+		"port": 8383,
+		"endpoints": {},
+		"defaults": {}
+	},
+	"production": {
+		"host": "https://node-api.example.com",
+		"port": 8383,
+		"endpoints": {},
+		"defaults": {}
+	}
+}

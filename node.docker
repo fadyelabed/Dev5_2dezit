@@ -1,0 +1,11 @@
+FROM node:16-slim
+
+RUN mkdir /nodecache
+WORKDIR /nodecache
+
+COPY ./node-app/package*.json ./
+RUN npm install -f
+
+EXPOSE 8383
+
+WORKDIR /application
