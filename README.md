@@ -1,19 +1,11 @@
 # NODEJS API
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-
-## Version
-
-**v1.0.0**
-
 ## Dependencies
 
 - nodejs: [https://www.nodejs.org/](https://www.nodejs.org/en/)
 - expressjs: [https://www.expressjs.com/](https://www.expressjs.com/)
 - mongodb: [https://www.mongodb.com/](https://www.mongodb.com/)
 - docker: [https://www.docker.com/](https://www.docker.com/)
-
-## NODEJS
 
 ### Installation
 
@@ -41,8 +33,6 @@
 
 - build `docker-compose build`
 - install node `docker exec -ti node npm install`
-- install node `docker exec -ti node npm run generate:config`
-- install node `docker exec -ti node npm run generate:docs`
 
 ### How to Use
 
